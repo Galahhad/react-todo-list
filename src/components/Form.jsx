@@ -66,7 +66,7 @@ const Form = () => {
 
   return (
     <>
-      <form className="Form" onClick={addTodo}>
+      <form className="Form" onSubmit={addTodo}>
         <input
           type="text"
           onChange={(e) => setText(e.target.value)}
